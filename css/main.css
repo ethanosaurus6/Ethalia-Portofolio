@@ -1,48 +1,48 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
-  font-size: 14px;
-  background: #6a0e0e;
-  line-height: 1.6;
-  color: #333;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background: #6a0e0e;
+    line-height: 1.6;
+    color: #333;
 }
 
 /* Layout Utama */
 .container {
-  width: 100%;
-  min-height: 1778px;
-  position: relative;
-  overflow: hidden;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+    width: 100%;
+    min-height: 1778px;
+    position: relative;
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* Navigation */
 .about-me, .featured-projects, .languages-tools {
-  position: absolute;
-  top: 72px;
-  font-size: 18px;
-  font-weight: 400;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  text-decoration: none;
-  color: #000;
-  transition: color 0.3s;
+    position: absolute;
+    top: 72px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s;
 }
 
 .about-me:hover, .featured-projects:hover, .languages-tools:hover {
-  color: #007bff;
+    color: #007bff;
 }
 
 .about-me {
-  left: calc(50% - 230px);
-  width: 120px;
+    left: calc(50% - 230px);
+    width: 120px;
 }
 .featured-projects {
     left: calc(50% - 80px);
@@ -89,27 +89,27 @@ body {
 
 /* Profile Section */
 .profile-photo {
-  width: 216px;
-  height: 211px;
-  background: #d9d9d9;
-  position: absolute;
-  top: 534px;
-  left: 50%;
-  transform: translateX(-190%);
-  border-radius: 50%;
+    width: 216px;
+    height: 211px;
+    background: #d9d9d9;
+    position: absolute;
+    top: 534px;
+    left: 50%;
+    transform: translateX(-190%);
+    border-radius: 50%;
 }
 
 .bio-text {
-  max-width: 819px;
-  position: absolute;
-  top: 520px;
-  left: 20%;
-  transform: translateX(-10%);
-  font-size: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  color: #000;
-  text-align: center;
+    max-width: 819px;
+    position: absolute;
+    top: 520px;
+    left: 30%;
+    transform: translateX(-10%);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
 }
 
 /* Projects Section */
